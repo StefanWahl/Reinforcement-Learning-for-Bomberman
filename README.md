@@ -18,7 +18,7 @@ For our implementations we used Python 3.8.. To run the code the following modul
 The folder agent_code contains the implementataion for a rule based agent, a random agent and a peaceful agent as they were provided by the framework. Besides these three agents, this folder contains the agents we trained:
 
 * coin_agent: To run this agent, the value of CRATE_DENSITY has to be set to 0.0 and MAX_AGENTS has to be set to 1 in the file settings.py
-* * coin_agent_new_features: To run this agent, the value of CRATE_DENSITY has to be set to 0.0 and MAX_AGENTS has to be set to 1 in the file settings.py
+* coin_agent_new_features: To run this agent, the value of CRATE_DENSITY has to be set to 0.0 and MAX_AGENTS has to be set to 1 in the file settings.py
 
 Details about the different agents can be found in our report. Ech of the agent folders contains all the code used to train the agent and to run the agent. The file Hyperparameters summarizes the hyperparameters used to train the agent.
 
