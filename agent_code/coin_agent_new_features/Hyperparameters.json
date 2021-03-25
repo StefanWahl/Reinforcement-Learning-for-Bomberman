@@ -1,0 +1,11 @@
+{
+    "GAMMA": 0.8,
+    "DECAY": 3000, 
+    "P_ZERO": 1, 
+    "FEATURE_DIM": 39, 
+    "BATCH_SIZE": 15000, 
+    "TRAIN_FREQ": 100, 
+    "SAVE_FREQ": 200, 
+    "FIRST_SAVE": true, 
+    "MODEL_PARAMETERS": {"learning_rate": 0.1, "n_estimators": 300, "max_depth": 6, "subsample": 0.95, "colsample_bytree": 1}, 
+    "GAME_REWARDS": {"COIN_COLLECTED": 200, "KILLED_SELF": -1000, "CRATE_DESTROYED": 200, "COIN_FOUND": 100, "NOT_AIMED_BOMB": -100, "AIMED_BOMB": 100, "MOVED_AWAY_FROM_BOMB": 100, "TIME": -2}}
