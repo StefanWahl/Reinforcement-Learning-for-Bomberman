@@ -4,8 +4,16 @@ This repository contains our results for the final project for the Lecture "Fund
 
 The task of this projct was, to use reinforcement learning to train an agent which can successly play the game Bomberman. The general framework of the game is taken from https://github.com/ukoethe/bomberman_rl.
 
+## Required modules
+
+For our implementations we used Python 3.8.. To run the code the following modules exceeding the python 3 standart library are needed:
+
+* xgboost (version we used: V1.3.3)
+* pygame (version we used: V2.0.1)
+* tqdm (version we used: V4.47.0)
+
 ## data
-The data sets recorded during the training can be found in "data". The colums of the file stats are as follows:
+The data sets recorded during the training can be found in "data". The colums of the file "stats.txt" can be read as follows:
 
 * Column 1: Training round
 * Column 2: Number of steps the agent survived in the current round
