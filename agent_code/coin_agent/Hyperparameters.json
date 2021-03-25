@@ -1,0 +1,12 @@
+{
+    "GAMMA": 0.9, 
+    "DECAY": 1616, 
+    "P_ZERO": 1, 
+    "FEATURE_DIM": 4, 
+    "BATCH_SIZE": 10000, 
+    "TRAIN_FREQ": 100, 
+    "SAVE_FREQ": 200, 
+    "FIRST_SAVE": true, 
+    "MODEL_PARAMETERS": {"learning_rate": 0.1, "n_estimators": 300, "max_depth": 3}, 
+    "GAME_REWARDS": {"COIN_COLLECTED": 200, "TIME": -1, "KILLED_SELF": -1000}
+}
