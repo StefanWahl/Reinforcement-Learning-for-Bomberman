@@ -18,6 +18,8 @@ The folder agent_code contains the implementataion for a rule based agent, a ran
 
 * coin_agent_test_GBM: To run this agent, the value of CRATE_DENSITY has to be set to 0.0 and MAX_AGENTS has to be set to 1 in the file settings.py
 
+Details about the different agents can be found in our report.
+
 ## data
 The data sets recorded during the training can be found in "data". The colums of the file "stats.txt" can be read as follows:
 
