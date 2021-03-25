@@ -1,5 +1,5 @@
 # Reinforcement-Learning-for-Bomberman
-## BY Leon Marx, Johannes Schmidt and Stefan Wahl
+## By Leon Marx, Johannes Schmidt and Stefan Wahl
 
 This repository contains our results for the final project for the Lecture "Fundamentals of Machine Learning", winter term 2020/2021 at the university of Heidelberg.
 
