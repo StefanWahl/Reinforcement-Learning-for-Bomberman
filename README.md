@@ -33,3 +33,5 @@ The data sets recorded during the training can be found in "data". The colums of
 * Column 6: 1 if the agent killed it self, else 0
 * Column 7: Number of invalid actions in the current round
 * Column 8: Number of crates destroyed in the current round
+
+For the agent agents, there is also a file called "performance_test.txt". This file contains the score of the different models trained in this run over 50 games without any random acitons.
