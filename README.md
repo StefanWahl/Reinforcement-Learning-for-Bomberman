@@ -20,7 +20,7 @@ The folder agent_code contains the implementataion for a rule based agent, a ran
 * coin_agent: To run this agent, the value of CRATE_DENSITY has to be set to 0.0 and MAX_AGENTS has to be set to 1 in the file settings.py
 * crate_agent: To run this the number of agents has to be reduced (MAX_AGENTS = 1 in file settings.py)
 
-Details about the different agents can be found in our report. Ech of the agent folders contains all the code used to train the agent and to run the agent. The file Hyperparameters summarizes the hyperparameters used to train the agent.
+Details about the different agents can be found in our report. Ech of the agent folders contains all the code used to train the agent and to run the agent. The file Hyperparameters summarizes the hyperparameters used to train the agent. The class definitions of the experiende buffer in Experience_Buffer.py and the definition of our model in Gradient_Boossting_Model.py are equivalent for all the trained agents. The feature selection in feature_selection.py is similar for all the agents exept coin_agent. Hyperparameters.py and callbacks.py are differnt for most of the agents due to due to different tasks and different training. train.py is similar for all the agents, there are minor cahnges for the different agents.
 
 ## data
 The data sets recorded during the training can be found in "data". The colums of the file "stats.txt" can be read as follows:
